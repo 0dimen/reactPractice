@@ -1,7 +1,9 @@
-import Button from "./responding-to-event";
+import Signup from "./signup";
 
 export default function Main(){
   return(
-    <Button/>
+    <div>
+      <Signup/>
+    </div>
   );
 }
