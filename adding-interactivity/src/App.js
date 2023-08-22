@@ -1,10 +1,9 @@
-import Gallery from "./state=a-component's-memory/component's-memory";
+import Form from "./state-as-a-snapshot/form";
 
 export default function Main(){
   return(
     <div>
-      <Gallery/>
-      <Gallery/>
+      <Form />
     </div>
   );
 }
