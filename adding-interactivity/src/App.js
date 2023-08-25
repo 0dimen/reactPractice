@@ -1,12 +1,12 @@
-import QCounter from "./queueing-a-series-of-state-updates/counter";
-import ImmerForm from "./updating-object-in-state/immerForm";
-import MovingDot from "./updating-object-in-state/movingDot";
-
+import BucketList from "./updating-arrays-in-state/bucketList";
+import CounterList from "./updating-arrays-in-state/counterList";
+import List from "./updating-arrays-in-state/list";
+import ShapeEditor from "./updating-arrays-in-state/shapeEditor";
 
 export default function Main(){
   return(
     <div>
-      <ImmerForm/>
+      <BucketList/>
     </div>
   );
 }
