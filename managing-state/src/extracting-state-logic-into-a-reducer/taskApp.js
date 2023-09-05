@@ -1,9 +1,9 @@
-import {useState} from 'react';
+import {useReducer} from 'react';
 import TaskList from './taskList';
 import AddTask from './addTask';
 
 export default function TaskApp(){
-    const [tasks, setTasks] = useState(initialTasks);
+    const [tasks, dispatch] = useReducer(tasksReducer, initialTasks);
     
     function handleAddTask(text){
         // setTasks([...tasks,
